@@ -1,0 +1,39 @@
+.titulo_Principal {
+    color: #e5804d;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+/* Container para alinhar o input e o botão lado a lado */
+.campo-pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.input-cpf {
+    padding: 8px 12px;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.input-cpf:focus {
+    border-color: #e5804d;
+}
+
+.botoes {
+    color: #296e01;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    padding: 8px 16px;
+    cursor: pointer;
+}
