@@ -1,0 +1,11 @@
+<div class="botoes">
+    <div *ngIf="mostrar">
+        mostrando apenas se for permitido
+    </div>
+    <h2 *ngIf="nome === 'Igor' ; else nomeErrado">
+        mostrando apenas se {{ nome }}
+    </h2>
+    <ng-template #nomeErrado>
+        nome errado {{ nome }}
+    </ng-template>
+</div>

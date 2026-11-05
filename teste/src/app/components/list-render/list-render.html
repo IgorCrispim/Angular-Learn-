@@ -1,0 +1,13 @@
+<h1>
+    Objeto:
+</h1>
+<ul>
+    <li *ngFor="let trem of coisa">
+        {{trem.name}} - {{trem.type}}
+        <button (click)="showAge(trem)">show age</button>
+    </li>
+    <a *ngIf="animalDetails !== ''">
+            {{ animalDetails | uppercase }}
+    </a>
+</ul>
+

@@ -1,0 +1,9 @@
+<h1 *ngIf="numero != 0 ; else erro">
+    o numero é: {{ numero }}
+</h1>
+<ng-template #erro>
+    <h1>
+        o numero é: 
+    </h1>
+</ng-template> 
+<app-chane-number (changeNumber)="onChangeNumber()"></app-chane-number>
