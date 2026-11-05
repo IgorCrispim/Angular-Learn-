@@ -1,0 +1,14 @@
+<h1>
+    <form>
+        <input 
+        type="text" 
+        [(ngModel)]="name"
+        name = "name"
+        placeholder="digiter seu nome"
+        />
+        <input type="submit" value="Enviar"/>
+    </form>
+    <p *ngIf="name !== ''">
+        O nome é {{ name }}
+    </p>
+</h1>

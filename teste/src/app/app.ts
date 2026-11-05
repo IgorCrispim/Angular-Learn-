@@ -8,9 +8,10 @@ import { Eventos } from './components/eventos/eventos';
 import { Emiter } from './components/emiter/emiter';
 import { ListRender } from './components/list-render/list-render';
 import { Pipes } from './components/pipes/pipes';
+import { TwoWayBinding } from './components/two-way-binding/two-way-binding';
 
 @Component({
-  imports: [RouterOutlet, FirstComponent, Second, Diretivas, IfRender, Eventos, Emiter, ListRender, Pipes],
+  imports: [RouterOutlet, FirstComponent, Second, Diretivas, IfRender, Eventos, Emiter, ListRender, Pipes, TwoWayBinding],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
